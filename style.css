@@ -132,7 +132,8 @@ position: fixed;
     }
 .outerbox{
       overflow: hidden;
-      width: 40vw;
+      width: 40vw; margin-left: 10px;
+      margin-right: 20px;
      }
   .innerbox img{
       width: 40vw;
@@ -212,23 +213,30 @@ position: fixed;
   .pos{
     position: relative;
     top: 120px;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: grey;
     font-family: 'Poppins', sans-serif;
+
+}
+.out-1{
+    margin-left: 25px;
+}
+.out-2{
+    margin-right: 20px;
 }
   .outerbox-2{
     overflow: hidden;
-    width: 20vw;
+    width: 30vw;  
 }
 
 .innerbox-2 a img{
-    width: 20vw;
+    width: 30vw;
     float: left;
     margin-top:150px;
 }
 .innerbox-2{
     position: relative;
-    width: 160vw;
+    width: 240vw;
     animation-name: homeanimation2;
     animation-duration: 70s;
     animation-iteration-count: infinite;
@@ -241,46 +249,46 @@ position: fixed;
         left: 0vw;
     }
     12%{
-        left: -20vw;
+        left: -30vw;
     }
     18%{
-        left: -20vw;
+        left: -30vw;
     }
     24%{
-        left: -40vw;
+        left: -60vw;
     }
     30%{
-        left: -40vw;
+        left: -60vw;
     }
     36%{
         left:-60vw ;
     }
     42%{
-        left: -60vw;
+        left: -90vw;
     }
     48%{
-        left: -80vw;
+        left: -90vw;
     }
     54%{
-        left: -80vw;
+        left: -120vw;
     }
     60%{
-        left: -100vw;
+        left: -120vw;
     }
     66%{
-      left: -100vw;
+      left: -150vw;
     }
     72%{
-        left: -120vw;
+        left: -150vw;
     }
     78%{
-        left: -120vw;
+        left: -180vw;
     }
     84%{
-        left: -140vw;
+        left: -180vw;
     }
     90%{
-        left: -140vw;
+        left: -180vw;
     }
     }
    #video{
@@ -300,7 +308,7 @@ position: fixed;
    overflow-x: scroll;
 }
 .inside-video2 img{
-width: 20vw;
+width: 30vw;
 margin: .8vw;
 border: .5vw solid black;
 border-radius: 2vw;
@@ -391,7 +399,7 @@ margin-left: 3vw;
     width: 80vw;
 }
 .inside-new a img{
-    width: 20vw;
+    width: 30vw;
     margin: .8vw;
     padding: .5vw;
     }
@@ -402,10 +410,8 @@ margin-left: 3vw;
        overflow-x: scroll;
     }
     .inside-hit img{
-    width: 20vw;
+    width: 30vw;
     margin: .8vw;
-    height: 15vw;
-   
     padding: .5vw;
     }
     .inside-hit::-webkit-scrollbar{
@@ -470,7 +476,7 @@ background-color: black;
  overflow-x: scroll;
 }
 .inside-year1 img{
-width: 20vw;
+width: 30vw;
 margin: .8vw;
 border: .5vw solid black;
 border-radius: 2vw;
@@ -517,7 +523,57 @@ padding: .5vw;
       width: 5vw;
       margin-left: 20px;
   }
- 
+  @media  (max-width:1000px){
+    .inside-year1 img{
+        width: 50vw;
+        margin: .8vw;
+        border: .5vw solid black;
+        border-radius: 2vw;
+        padding: .5vw;
+        }
+        .inside-new a img{
+            width: 50vw;
+            margin: .8vw;
+            padding: .5vw;
+            }
+            
+            .inside-hit img{
+            width: 50vw;
+            margin: .8vw;
+            padding: .5vw;
+            }
+            .inside-video2 img{
+                width: 50vw;
+                margin: .8vw;
+                border: .5vw solid black;
+                border-radius: 2vw;
+                padding: .5vw;
+                }
+                .formedia{
+                    display: flex;
+                font-size: 10vw;
+                
+               margin-left: 3vw;
+               
+                }
+                .formedia2{
+                    transform: rotate(-90deg);
+                    font-size: 75px;
+                    font-family:sans-serif;
+                    color:  rgb(150, 146, 146);
+                    padding: 10px;
+                 }
+                
+}
+@media  (min-width:1001px){
+    .formedia2{
+        transform: rotate(-90deg);
+        font-size: 75px;
+        font-family:sans-serif;
+        color:  rgb(150, 146, 146);
+        padding: 10px;
+     }
+}
   @media (max-width:553px) {
     .img-2{
         width: 50px;
@@ -538,12 +594,13 @@ padding: .5vw;
         }  
          .formedia2{
             transform: rotate(-90deg);
-            font-size: 16px;
+            font-size: 45px;
             font-family:sans-serif;
             color:  rgb(150, 146, 146);
 
             padding: 10px;
          }
+         
   }
  
   @media (max-width:310px) {
@@ -588,16 +645,11 @@ padding: .5vw;
             float: left;
             margin-top:90px;
         }  
-        .pos{
-            position: relative;
-            top: 120px;
-            font-size: 4rem;
-            overflow: hidden;
-            overflow-x: scroll;
+     
         } 
         .formedia2{
             transform: rotate(-90deg);
-            font-size: 10px;
+            font-size: 30px;
             font-family:sans-serif;
             color:  rgb(150, 146, 146);
 
@@ -642,23 +694,52 @@ font-size: 1.5rem;
     }
     .formedia2{
         transform: rotate(-90deg);
-        font-size: 70px;
+        font-size: 100px;
         font-family:sans-serif;
         color:  rgb(150, 146, 146);
      }
  }
- @media  (max-width:1350px){
+ 
+
+ @media (max-width:600px) {
     .pos{
         position: relative;
-        top: 130px;
-        font-size: 2rem;
+        top: 120px;
+        font-size: 2.2rem;
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        
     }
  }
- @media  (max-width:655px){
+ @media (max-width:440px) {
     .pos{
         position: relative;
-        top: 130px;
+        top: 120px;
+        font-size: 1.4rem;
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+       
+    }
+ }
+ @media (max-width:310px) {
+    .pos{
+        position: relative;
+        top: 120px;
         font-size: 1rem;
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+ }
+ @media (max-width:244px) {
+    .pos{
+        position: relative;
+        top: 120px;
+        font-size: .9rem;
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        overflow: hidden;
+        overflow-x: scroll;
     }
  }
  @media (min-width:0px) {
@@ -671,6 +752,17 @@ font-size: 1.5rem;
     overflow: hidden;
    } 
 }
+
+@media (max-width:200px){
+    .formedia2{
+        transform: rotate(-90deg);
+        font-size: 20px;
+        font-family:sans-serif;
+        color:  rgb(150, 146, 146);
+        padding: 10px;
+     }
+  }
+ 
 #animate2{
     display: none;
 }
