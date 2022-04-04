@@ -60,6 +60,7 @@ html {
         height: 50px;
         cursor: pointer;
         margin-left: 3vh;
+        
 }  
     .img-1:active{
        filter: invert(100%);
@@ -214,9 +215,8 @@ position: fixed;
     position: relative;
     top: 120px;
     font-size: 3rem;
-    color: grey;
     font-family: 'Poppins', sans-serif;
-
+color: #45fe00;
 }
 .out-1{
     margin-left: 25px;
@@ -495,11 +495,11 @@ padding: .5vw;
  box-shadow: inset .2vw .2vw white;
   }
   #contact img:hover{
-      border: 2px solid white;
+      border: 5px solid #45fe00;
       padding: 5%;
   }
   .inside-contact{
-      background-color:black;
+      /* background-color:red; */
       
       display: flex;
       justify-content: center;
@@ -514,15 +514,17 @@ padding: .5vw;
       border-top: 1px solid rgb(97, 94, 94);
 
   }
+ 
   .yt img{
       border-radius: 30%;
       margin-top: 30%;
       margin-bottom: 10%;
   }
   .forimg{
-      width: 5vw;
+      width: 7vw;
       margin-left: 20px;
-  }
+      margin-top: 20px;
+     }
   @media  (max-width:1000px){
     .inside-year1 img{
         width: 50vw;
@@ -563,7 +565,7 @@ padding: .5vw;
                     color:  rgb(150, 146, 146);
                     padding: 10px;
                  }
-                
+                      
 }
 @media  (min-width:1001px){
     .formedia2{
@@ -646,7 +648,7 @@ padding: .5vw;
             margin-top:90px;
         }  
      
-        } 
+         
         .formedia2{
             transform: rotate(-90deg);
             font-size: 30px;
@@ -655,7 +657,7 @@ padding: .5vw;
 
             padding: 10px;
          }
-  }
+        }   
    @media  (min-width:1350px){
     
      
@@ -692,7 +694,7 @@ font-size: 1.5rem;
         float: left;
         margin-top:2.4%;
     }
-    .formedia2{
+   .formedia2{
         transform: rotate(-90deg);
         font-size: 100px;
         font-family:sans-serif;
@@ -706,17 +708,18 @@ font-size: 1.5rem;
         position: relative;
         top: 120px;
         font-size: 2.2rem;
-        color: grey;
+        color: #45fe00;
         font-family: 'Poppins', sans-serif;
         
     }
+    
  }
  @media (max-width:440px) {
     .pos{
         position: relative;
         top: 120px;
         font-size: 1.4rem;
-        color: grey;
+        color: #45fe00;
         font-family: 'Poppins', sans-serif;
        
     }
@@ -726,7 +729,7 @@ font-size: 1.5rem;
         position: relative;
         top: 120px;
         font-size: 1rem;
-        color: grey;
+        color: #45fe00;
         font-family: 'Poppins', sans-serif;
         
     }
@@ -736,7 +739,7 @@ font-size: 1.5rem;
         position: relative;
         top: 120px;
         font-size: .9rem;
-        color: grey;
+        color: #45fe00;
         font-family: 'Poppins', sans-serif;
         overflow: hidden;
         overflow-x: scroll;
@@ -775,6 +778,10 @@ font-size: 1.5rem;
      justify-content: center;
      cursor: pointer;
      align-items: center;
+
+ }
+ #plus-inside{
+    filter: invert(70%) sepia(10%) saturate(6272%) hue-rotate(58deg) brightness(177%) contrast(307%);
 
  }
  #vidrot{
