@@ -782,9 +782,9 @@ font-size: 1.5rem;
 
  }
  #plus-inside{
-    filter: invert(70%) sepia(10%) saturate(6272%) hue-rotate(58deg) brightness(177%) contrast(307%);
 
- }
+color: #45fe00;
+     }
  #vidrot{
      cursor: pointer;
  }
