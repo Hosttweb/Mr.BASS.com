@@ -213,11 +213,11 @@ position: fixed;
   }
   .pos{
     position: relative;
-    top: 125px;
+    top: 135px;
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
 color: #45fe00;
-z-index: 10000;
+
 }
 .out-1{
     margin-left: 25px;
