@@ -499,7 +499,6 @@ padding: .5vw;
       padding: 5%;
   }
   .inside-contact{
-      /* background-color:red; */
       
       display: flex;
       justify-content: center;
@@ -835,6 +834,18 @@ font-size: 1.5rem;
             left: -280vw;
         }
         }
+        .out-1{
+            margin-left: 0;
+        }
+        .out-2{
+            margin-right: 0;
+        }
+        #home{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid rgb(97, 94, 94);
+          }
   }
  
 #animate2{
@@ -842,7 +853,7 @@ font-size: 1.5rem;
 }
    #plus{
      background-color: black;
-     color: white;
+     color: #45fe00;
      height: fit-content;
      font-size: 7rem;
      display: flex;
@@ -851,10 +862,7 @@ font-size: 1.5rem;
      align-items: center;
 
  }
- #plus-inside{
-    color: #45fe00;
-
- }
+ 
  #vidrot{
      cursor: pointer;
  }
