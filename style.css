@@ -765,6 +765,77 @@ font-size: 1.5rem;
         padding: 10px;
      }
   }
+  @media  (max-width:800px){
+    .outerbox-2{
+        overflow: hidden;
+        width: 40vw;  
+    }
+    .outerbox{
+        display: none;
+    }
+    .innerbox-2 a img{
+        width: 40vw;
+        float: left;
+        margin-top:150px;
+    }
+    .innerbox-2{
+        position: relative;
+        width: 320vw;
+        animation-name: homeanimation2;
+        animation-duration: 70s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes homeanimation2 {
+        0%{
+            left: 0vw;
+        }
+        6%{
+            left: 0vw;
+        }
+        12%{
+            left: -40vw;
+        }
+        18%{
+            left: -40vw;
+        }
+        24%{
+            left: -80vw;
+        }
+        30%{
+            left: -80vw;
+        }
+        36%{
+            left:-120vw ;
+        }
+        42%{
+            left: -120vw;
+        }
+        48%{
+            left: -160vw;
+        }
+        54%{
+            left: -160vw;
+        }
+        60%{
+            left: -200vw;
+        }
+        66%{
+          left: -200vw;
+        }
+        72%{
+            left: -240vw;
+        }
+        78%{
+            left: -240vw;
+        }
+        84%{
+            left: -280vw;
+        }
+        90%{
+            left: -280vw;
+        }
+        }
+  }
  
 #animate2{
     display: none;
@@ -778,10 +849,9 @@ font-size: 1.5rem;
      justify-content: center;
      cursor: pointer;
      align-items: center;
-    
 
  }
-#plus-inside{
+ #plus-inside{
     color: #45fe00;
 
  }
